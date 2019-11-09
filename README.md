@@ -6,7 +6,14 @@ This program prints the result of double hashing depending on h1, h2 and keys.
 - h2 is the second hash function
 - keys are the values to be inserted into the hash table
 
-Sample output for dataset {8, 19, 30, 12, 14, 13, 44}:
+For example,
+```
+h1 = k % 11
+h2 = 3k % 4 + 1
+keys = {8, 19, 30, 12, 14, 13, 44}
+```
+
+The output will be:
 ```
 0 --- 30
 1 --- 12
